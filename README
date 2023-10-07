@@ -1,0 +1,21 @@
+Fashion Recommendation by Natural Language Speech Processing using Generative AI
+
+Project Overview
+Fashion Recommendation by Natural Language Speech Processing using Generative AI is a system designed to provide personalized fashion recommendations to users based on their natural language speech input. It leverages generative AI to understand user preferences, past shopping history, and brand loyalty to generate fashion suggestions.
+
+Project Scope
+The primary scope of this project is as follows:
+
+Natural Language Speech Input: The system accepts natural language speech input from users, allowing them to express their fashion preferences and requirements verbally.
+
+User Preference Analysis: It analyzes the user's past shopping history, brand loyalty, and preference data to gain insights into their fashion choices.
+
+Generative AI Recommendation: The system employs generative AI algorithms to generate fashion recommendations tailored to the user's preferences and past behavior.
+
+Features
+Accepts natural language speech input.
+Analyzes user shopping history and preferences.
+Utilizes generative AI for personalized fashion recommendations.
+Enhances user shopping experiences by suggesting relevant fashion items.
+Customizable and adaptable to different user profiles.
+Prerequisites

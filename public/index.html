@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Form</title>
+  <style>
+    body {
+      background-image: url('./bg.png');
+      background-size: cover;
+      background-color: rgba(0, 0, 0, 0.5); /* 0.5 opacity background */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    form {
+      font-size: 18px; /* Adjust the font size as needed */
+      background-color: rgba(255, 255, 255, 0.2); /* 0.9 opacity for the form */
+      border-radius: 20px;
+      padding: 20px; /* Add some padding for better visibility */
+    }
+
+    label {
+      font-weight: bold;
+      color: rgb(245, 255, 100);
+    }
+
+    input {
+      font-size: inherit; /* Inherits font size from parent (form) */
+    }
+
+    button {
+      font-size: 18px; /* Adjust the font size for the button */
+    }
+  </style>
+</head>
+<body>
+  <form action="/submit" method="post">
+    <label for="searchField">Search:</label>
+    <input type="text" id="searchField" name="searchField" required><br><br>
+
+    <label for="genderField">Gender:</label>
+    <input type="text" id="genderField" name="genderField"><br><br>
+
+    <label for="ageField">Age:</label>
+    <input type="text" id="ageField" name="ageField"><br><br>
+
+    <label for="sizeField">Size:</label>
+    <input type="text" id="sizeField" name="sizeField"><br><br>
+
+    <label for="locationField">Location:</label>
+    <input type="text" id="locationField" name="locationField"><br><br>
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
